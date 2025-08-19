@@ -1,0 +1,10 @@
+google-generativeai
+wandb
+trl
+transformers
+datasets
+liger-kernel
+# galore-torch
+python-dotenv
+# deepspeed
+# accelerate
