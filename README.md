@@ -42,6 +42,7 @@ Dự án tạo CAD models từ mô tả bằng ngôn ngữ tự nhiên, hỗ tr�
 - **Wandb**: Experiment tracking
 
 ## Environment
+```python
 # install torch and nvcc match =< cuda driver version
 # install nvcc in https://anaconda.org/nvidia/cuda-nvcc
 # conda install cuda -c nvidia/label/cuda-12.8.0
@@ -53,3 +54,4 @@ Dự án tạo CAD models từ mô tả bằng ngôn ngữ tự nhiên, hỗ tr�
 # check: nvcc --version ; which nvcc
 # pip install flash-attn --no-build-isolation
 # CUDA_VISIBLE_DEVICES=4,5 accelerate launch --main_process_port=29501 --config_file default_config.yaml sft_ds.py
+```
