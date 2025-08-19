@@ -1,7 +1,7 @@
-# Multiturn AutoCAD Project
+# Bilingual-Text-to-CAD-Model-Generation-English-Vietnamese (Code Train)
 
 ## Project Description
-Bilingual-Text-to-CAD-Model-Generation-English-Vietnamese (Code Train)
+A project for generating CAD models from natural language descriptions, supporting both English and Vietnamese.
 
 ## Project Structure
 
