@@ -30,7 +30,7 @@ try:
     dtype = torch.bfloat16
     max_length = 6000
     num_epochs = 2
-    learning_rate = 5e-5
+    learning_rate =5e-5
     num_proc = 16
     model_name = "wanhin/Qwen2.5-7B-Instruct_1e_fullfinetune" #   meta-llama/Llama-3.1-8B-Instruct    Qwen/Qwen2.5-7B-Instruct
     output_dir = f"{model_name.split('/')[-1]}_{num_epochs}epoch_stage2_24-06"
@@ -79,7 +79,7 @@ try:
         num_train_epochs=num_epochs,
         per_device_train_batch_size=4,
         per_device_eval_batch_size=1,
-        gradient_accumulation_steps=2,
+        gradient_accumulation_steps=4,
         learning_rate=learning_rate,
         bf16=True,
         eval_strategy="epoch",
